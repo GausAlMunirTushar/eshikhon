@@ -18,3 +18,18 @@
 // }
 
 // updateEmail("admin@gmail.com");
+
+// let today = new Date();
+// console.log(today.toDateString());
+
+let names = ["Tamim", "Sakib", "Mushfiq"];
+const [firstBoy, secondBoy, thirdBoy] = names;
+console.log(firstBoy);
+console.log(secondBoy);
+console.log(thirdBoy);
+
+console.log(
+  `Hello ${firstBoy} and ${secondBoy} and ${thirdBoy} you are best in our ${
+    7 + 2
+  } class`
+);
